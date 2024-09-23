@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fall Weather Forecast</title>
-    <!-- Link to external stylesheet -->
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
+    <!-- Embedded CSS -->
+    <style>
+        .forecast {
+            background-color: #fff3e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
 
-    <!-- Embedded styles will go here -->
-
+        .day {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Fall Weather Forecast</h1>
-    <div class="forecast">
-        <p class="day">Monday: Sunny, 60°F</p>
-        <p class="day">Tuesday: Cloudy, 55°F</p>
-        <p class="day">Wednesday: Rainy, 50°F</p>
-    </div>
+<h1>Fall Weather Forecast</h1>
+<div class="forecast">
+    <p class="day">Monday: Sunny, 60&deg;F</p>
+    <p class="day">Tuesday: Cloudy, 55&deg;F</p>
+    <p class="day">Wednesday: Rainy, 50&deg;F</p>
+    <p class="day">Thursday: Thunderstorms, -10&deg;F</p>
+    <p class="day">Friday: End of the world, 200&deg;F</p>
+</div>
 
-    <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+<footer style="text-align: center; color: #555; font-size: 0.9em;">Last updated: September 22</footer>
 </body>
-
 </html>

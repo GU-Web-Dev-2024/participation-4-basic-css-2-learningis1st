@@ -1,0 +1,28 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #d2691e;
+    margin-top: 20px;
+}
+
+.forecast {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day {
+    color: #ff8c00;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.day:hover {
+    color: #fff;
+    background-color: #ff8c00;
+}
